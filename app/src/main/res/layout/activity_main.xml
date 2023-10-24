@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    <!--HOLA MUNDO 1 VERDE-->
+    <!--Título-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,7 +14,7 @@
         android:textAlignment="center"
         android:textColor="#5E5E5E"
         android:textSize="50sp" />
-
+    <!--Subtítulo-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,52 +22,54 @@
         android:textAlignment="center"
         android:textColor="#5E5E5E"
         android:textSize="25sp" />
-    <!--LINEAR LAYOUT INTERNO-->
+    <!--Opciones-->
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:orientation="horizontal"
-        tools:context=".MainActivity"
-        android:layout_marginLeft="10dp">
+        tools:context=".MainActivity">
+        <!--        Opción 1-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Opción 1"
             android:textAlignment="center"
             android:textColor="#5E5E5E"
-            android:textSize="25sp"
-
-            />
+            android:textSize="25sp" />
+        <!--        Opción 2-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
             android:text="Opción 2"
             android:textAlignment="center"
             android:textColor="#5E5E5E"
-            android:textSize="25sp"
-            android:layout_marginLeft="45dp"/>
+            android:textSize="25sp" />
+        <!--        Opción 3-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
             android:text="Opción 3"
             android:textAlignment="center"
             android:textColor="#5E5E5E"
-            android:textSize="25sp"
-            android:layout_marginLeft="45dp"/>/>
+            android:textSize="25sp" />/>
 
 
     </LinearLayout>
-
+    <!--Textos-->
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:orientation="horizontal"
-        tools:context=".MainActivity"
-        android:layout_marginLeft="15dp">
+        tools:context=".MainActivity">
+        <!--        Texto 1-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -75,26 +77,24 @@
             android:textAlignment="center"
             android:textColor="#5E5E5E"
             android:textSize="25sp" />
+        <!--        Texto 2-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
             android:text="Texto 2"
             android:textAlignment="center"
             android:textColor="#5E5E5E"
-            android:textSize="25sp"
-            android:layout_marginLeft="65dp"/>/>
+            android:textSize="25sp" />
+        <!--        Texto 3-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
             android:text="Texto 3"
             android:textAlignment="center"
             android:textColor="#5E5E5E"
-            android:textSize="25sp"
-            android:layout_marginLeft="55dp"/>/>
-
+            android:textSize="25sp" />/>
 
     </LinearLayout>
-
-
 </LinearLayout>
-
